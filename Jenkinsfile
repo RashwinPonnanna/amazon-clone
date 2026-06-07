@@ -4,14 +4,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Repo') {
-
-            steps {
-
-                git 'https://github.com/RashwinPonnanna/amazon-clone.git'
-            }
-        }
-
         stage('Build Docker Image') {
 
             steps {
